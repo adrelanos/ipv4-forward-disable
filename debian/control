@@ -1,0 +1,20 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: ipv4-forward-disable
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 8), faketime, git
+Homepage: https://github.com/Whonix/ipv4-forward-disable
+Vcs-Browser: https://github.com/Whonix/ipv4-forward-disable
+Vcs-Git: https://github.com/Whonix/ipv4-forward-disable.git
+Standards-Version: 3.9.4
+
+Package: ipv4-forward-disable
+Architecture: all
+Depends: ${misc:Depends}
+Description: Deactivates IPv4 forwarding using /etc/sysctl.d/
+ IPv4 forwarding is not required for a Tor based Anonymity Distribution
+ Gateways. Deactivating it as defense in depth to prevent leaks.
