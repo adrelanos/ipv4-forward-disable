@@ -18,3 +18,5 @@ Depends: ${misc:Depends}
 Description: Deactivates IPv4 forwarding using /etc/sysctl.d/
  IPv4 forwarding is not required for a Tor based Anonymity Distribution
  Gateways. Deactivating it as defense in depth to prevent leaks.
+ .
+ For better security.
