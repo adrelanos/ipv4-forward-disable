@@ -3,6 +3,8 @@
 IPv4 forwarding is not required for a Tor based Anonymity Distribution
 Gateways. Deactivating it as defense in depth to prevent leaks.
 
+For better security.
+
 (This package description has been [automatically](https://github.com/Whonix/whonix-developer-meta-files/blob/master/debug-steps/packaging-helper-script) extracted and mirrored from `debian/control`.)
 
 # Generic Readme #
