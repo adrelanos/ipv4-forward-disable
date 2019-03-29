@@ -1,3 +1,9 @@
+ipv4-forward-disable (3:1.8-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 29 Mar 2019 09:56:09 +0000
+
 ipv4-forward-disable (3:1.7-1) unstable; urgency=medium
 
   * New upstream version (local package).
