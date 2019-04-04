@@ -5,11 +5,11 @@ Source: ipv4-forward-disable
 Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
-Build-Depends: debhelper (>= 9), genmkfile
+Build-Depends: debhelper (>= 12), genmkfile
 Homepage: https://github.com/Whonix/ipv4-forward-disable
 Vcs-Browser: https://github.com/Whonix/ipv4-forward-disable
 Vcs-Git: https://github.com/Whonix/ipv4-forward-disable.git
-Standards-Version: 3.9.8
+Standards-Version: 4.3.0
 
 Package: ipv4-forward-disable
 Architecture: all
